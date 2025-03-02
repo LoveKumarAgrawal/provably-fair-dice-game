@@ -1,15 +1,12 @@
 import express from "express"
 import 'dotenv/config'
 import crypto from "crypto"
+import cors from "cors"
 
 const app = express()
 app.use(express.json())
-
+app.use(cors())
 const port = process.env.NODE_SERVER_PORT || 3000;
-
-function rollDice() {
-    return Math.floor(Math.random() * 6) + 1;
-}
 
 function generateHash(userSeed, serverSeed) {
     const data = userSeed + serverSeed;
