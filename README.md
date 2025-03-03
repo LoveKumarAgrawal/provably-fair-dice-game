@@ -8,7 +8,7 @@ A blockchain-integrated provably fair dice game built with **Next.js** for the f
 
 ## 📸 Screenshot
 
-![Game Screenshot](public/screenshot.png)
+![Game Screenshot](/frontend/public/screenshot.png)
 
 ---
 
