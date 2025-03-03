@@ -4,7 +4,7 @@ A blockchain-integrated provably fair dice game built with **Next.js** for the f
 
 ## 🚀 Live Demo
 
-[Live Game](#) *()*
+[Live Game](https://provably-fair-dice-game-74dz.vercel.app/)
 
 ## 📸 Screenshot
 
