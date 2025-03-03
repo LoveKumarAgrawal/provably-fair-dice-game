@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function DiceLine({ result }: { result: any }) {
+const DiceLine = ({ result }: { result: number | null }) => {
   const [value, setValue] = useState(result);
   const marks = [1, 2, 3, 4, 5, 6];
 
@@ -32,3 +32,6 @@ export default function DiceLine({ result }: { result: any }) {
     </div>
   );
 }
+
+
+export default DiceLine;
